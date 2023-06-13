@@ -1,36 +1,7 @@
 # JAVAPROJECT1
 
+Пожалуйста, обратите внимание, что ни один пользовательский контент в этом репозитории не лицензирован! Вы можете запустить следующие файлы из папки Puzzle/dist/, чтобы играть в игру:
 
-A Jigsaw Puzzle by Carlos F. Heuberger
+puzzle.jar (используя виртуальную машину Java); или файлы *.bat (для запуска игры). Кроме этого, вам не разрешается использовать, изменять и/или распространять любой пользовательский контент, за исключением случаев, описанных в Условиях предоставления услуг Github (раздел D.5). В частности, вам не разрешается использовать или распространять какой-либо исходный код или какой-либо ресурс, размещенный в этом репозитории.
 
-Use at your own risk - no warranties! For my family and myself.
-
-Copyright: Carlos F. Heuberger. All rights reserved.
-
-Please note that no User-Generated Content in this repository is licensed! You can execute the following files from the Puzzle/dist/ folder, to play the game:
-
-puzzle.jar (using a Java Virtual Machine); or
-*.bat files (to start the game).
-Other then that, you are not allowed to use, change and/or redistribute any User-Generated Content, except as described in Github Terms of Service (Section D.5). Particularly, you are not allowed to use or distribute any source code or any resource posted in this repository.
-
-Instructions
-Version
-update Implementation-Version in src/manifest.txt
-update version from jnlp tag in src/puzzle.jnlp
-create JAR
-sign JAR using . src/signjar.sh
-Java Web Start
-copy src/puzzle.jnlp to docs/
-copy dist/puzzle.jar to docs/
-ZIP
-copy dist/ folder to new folder Puzzle-<version>
-zip Puzzle-<version> folder to Puzzle-<version>.zip
-adjust ZIP link in docs/index.md - two times Version (tag and file)
-commmit and tag -s v<version> -m v<version>
-push, create release for that tag and attach the ZIP
-Pictures
-Originals are available under src/pics/ as Gimp files.
-
-icon.png scaled to 32x32 copy to docs/ and src/java/cfh/puzzle/resources
-splash.png scaled to 640x320 copy to docs/ and src/java/cfh/puzzle/resources
-social.png used as Social Preview on GitHub
+Реализация обновления версии инструкций-Версия в src/manifest.txt обновите версию из тега jnlp в src/puzzle.jnlp создайте JAR, используя JAR-знак . src/signjar.sh Java Web Start скопируйте src/puzzle.jnlp в docs/ copy dist/puzzle.jar в документы/ ZIP скопировать dist/ папку в новую папку Puzzle- zip Puzzle- папка в Puzzle-.zip отрегулируйте Почтовая ссылка в docs/index.md - двукратная версия
